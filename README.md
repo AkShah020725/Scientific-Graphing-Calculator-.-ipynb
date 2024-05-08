@@ -1,25 +1,25 @@
 ***EXPLANATION - SCIENTIFIC GRAPHING CALCULATOR***
 
-**How to write my program?**
+***How to write my program?***
 
-1. I will import **cmath, numpy as np & matplotlib.pyplot as plt** 
+1. I will import ***cmath, numpy as np & matplotlib.pyplot as plt*** 
 
 2. I want to define the code being used for plotting a graph with any kind of polynomial given. 
 
-**def plot_polynomial_graph():** 
+***def plot_polynomial_graph():*** 
 
 3. Under this piece of code, I will ask the user to give me a polynomial equation using x. 
 
-**equation = input("Enter a polynomial equation using x: ")** 
+***equation = input("Enter a polynomial equation using x: ")*** 
 
 4. Then I will generate the values for x by using the function called np.linspace. 
 
-  **x = np.linspace(-10, 10, 400)** 
+  ***x = np.linspace(-10, 10, 400)*** 
 
 5. Now I will try to parse and evaluate the equation using the eval ( ) function. 
 
-**try:**     
-  **y = eval(equation, {'x': x})**
+***try:***     
+  ***y = eval(equation, {'x': x})***
 
 6. After this, I will ask if they want to graph a linear line and then I will plot for the x & y values, the title of the graph and the expected invalid input. 
 

@@ -6,7 +6,9 @@
 
 2. I want to define the code being used for plotting a graph with any kind of polynomial given. 
 
-***def plot_polynomial_graph():*** 
+``` python
+def plot_polynomial_graph():
+```python
 
 3. Under this piece of code, I will ask the user to give me a polynomial equation using x. 
 

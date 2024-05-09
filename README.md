@@ -8,7 +8,7 @@
 
 ``` python
 def plot_polynomial_graph():
-```python
+```
 
 3. Under this piece of code, I will ask the user to give me a polynomial equation using x. 
 
